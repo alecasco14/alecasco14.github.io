@@ -26,7 +26,7 @@
 }
 
 .productInfo .precio{
-    font-size: 2.8em;
+    font-size: 2em;
     letter-spacing: -1px;
     padding-bottom: 15px;
     vertical-align: top;
@@ -74,6 +74,11 @@
 
 .bg-great-info{
 	text-align: center;
+}
+
+.bg-great-info h1{
+  font-size: 2em;
+  font-weight: 500;
 }
 
 .bg-product-content{
