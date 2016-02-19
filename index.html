@@ -4,8 +4,9 @@
 <!--[if IE 9]>    <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
 <html>
 <head>
+	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" href="lib/chico/dist/ui/chico.min.css"/>
+	<link rel="stylesheet" href="https://static.mlstatic.com/org-img/ch/ui/1.1.1/chico.min.css"/>
 </head>
 <body>
 	<div class="bigContainer" itemscope="" itemtype="http://schema.org/Product">
@@ -63,24 +64,29 @@
 					</form>
 
 						<h3>More products like this</h3>
-					   <div class="myCarousel ch-carousel">
-					      <div class="ch-carousel-prev ch-user-no-select ch-carousel-disabled" role="button" aria-hidden="false" aria-disabled="false"></div>
-					      <div class="ch-carousel-mask" role="tabpanel" style="height: 100px; width:390px;">
-					         <ul class="ch-carousel-list" style="width: 700px; transform: translateX(0px);">
-					            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="19" aria-posinset="1" aria-label="page1" ><img src="img/imgCarousell.jpg"></li>
-					            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="19" aria-posinset="2" aria-label="page1" ><img src="img/imgCarousell.jpg"></li>
-					            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="19" aria-posinset="3" aria-label="page1" ><img src="img/imgCarousell.jpg"></li>
-					            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="4" aria-label="page2" ><img src="img/imgCarousell.jpg"></li>
-					            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="5" aria-label="page2" ><img src="img/imgCarousell.jpg"></li>
-					            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="6" aria-label="page2" ><img src="img/imgCarousell.jpg"></li>
-					         </ul>
-					      </div>
-					      <div class="ch-carousel-next ch-user-no-select" role="button" aria-hidden="false" aria-disabled="false"></div>
-					      <div class="ch-carousel-pages ch-user-no-select" role="navigation">
-					      	<span role="button" aria-selected="true" aria-controls="page1" data-page="1" class="ch-carousel-selected">1</span>
-					      	<span role="button" aria-selected="false" aria-controls="page2" data-page="2" class="">2</span>
-					      </div>
-					   </div>
+
+
+					    <div class="myCarousel ch-carousel">
+						   <div class="ch-carousel-prev ch-carousel-disabled ch-user-no-select" role="button" aria-hidden="true" aria-disabled="true"></div>
+						   <div class="ch-carousel-mask" role="tabpanel" style="height: 210px;">
+						      <ul class="ch-carousel-list" style="width: 400px; transform: translateX(0px);">	
+						            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="6" aria-posinset="1" aria-label="page1" ><img src="img/imgCarousell.jpg"></li>
+						            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="6" aria-posinset="2" aria-label="page1" ><img src="img/imgCarousell.jpg"></li>
+						            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="6" aria-posinset="3" aria-label="page1" ><img src="img/imgCarousell.jpg"></li>
+						            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="6" aria-posinset="4" aria-label="page2" ><img src="img/imgCarousell.jpg"></li>
+						            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="6" aria-posinset="5" aria-label="page2" ><img src="img/imgCarousell.jpg"></li>
+						            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="6" aria-posinset="6" aria-label="page2" ><img src="img/imgCarousell.jpg"></li>
+
+						         </ul>
+						   </div>
+						   <div class="ch-carousel-next ch-user-no-select" role="button" aria-hidden="false" aria-disabled="false"></div>
+						   <div class="ch-carousel-pages ch-user-no-select" role="navigation">
+						   		<span role="button" aria-selected="true" aria-controls="page1" data-page="1" class="ch-carousel-selected">1</span>
+						   		<span role="button" aria-selected="false" aria-controls="page2" data-page="2" class="">2</span>
+						   	</div>
+						</div>
+
+
 				</fieldset>
 			</div>
 			
@@ -104,15 +110,20 @@
 		        </li>   
 			</ul>
 		</section>	
-
-
-
 	</div>
 
-	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="lib/tiny.js/dist/tiny.js"></script>
-	<script src="lib/chico/dist/ui/chico.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="https://static.mlstatic.com/org-img/ch/ui/1.1.1/chico.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			var carousel = $(".myCarousel").carousel({"pagination": true});
+		});
+	</script>
+
+
+
 
 </body>
 </html> 
