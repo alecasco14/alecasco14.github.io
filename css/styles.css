@@ -64,6 +64,8 @@
 
 .ch-carousel {
     overflow: hidden !important;
+    width: 400px;
+    margin-top: 20px;
 }
 
 .ch-carousel .ch-carousel-item{
