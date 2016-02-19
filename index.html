@@ -99,17 +99,15 @@
 		</section>	
 	</div>
 
-	<!--<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>-->
-
 	<script src="lib/tiny.js/dist/tiny.js"></script>
 	<script src="lib/chico/dist/ui/chico.min.js"></script>
-	<script src="js/main.js"></script>
-
 
 	<script>
-		var carousel = new ch.Carousel(ch('.demo-carousel')[0], {
-			pagination: true
+		document.addEventListener("DOMContentLoaded", function(e) { // 
+		  var carousel = new ch.Carousel(ch('.demo-carousel')[0], {"pagination": true});
 		});
+
+		
 	</script>
 </body>
 </html> 
