@@ -40,6 +40,7 @@
 .productInfo .precio sup{
     font-size: .5em;
     line-height: 1.5em;
+    vertical-align: text-top;
 }
 
 .productInfo form {
@@ -165,4 +166,13 @@
   -o-animation-duration: 0.5s;
   -moz-animation-duration: 0.5s;
   animation-duration: 0.5s;
+}
+
+.ch-box-container{
+  color: black;
+}
+
+.ch-box-container p{
+  font-size: 14px;
+  margin-top: 0px;
 }
