@@ -1,0 +1,178 @@
+
+.bigContainer{
+	margin: 0 auto;
+	width: 876px;
+}
+
+.gallery {
+    display: inline-block;
+
+}
+
+.gallery img {
+    margin: 0 auto;
+    display: block
+}
+
+.myCarousel{
+  width: 450px;
+}
+
+.productInfo {
+    display: inline-block;
+    padding-left: 30px;
+    vertical-align: top;
+    text-align: left;
+    float: none;
+    max-width: 480px;
+    min-width: 390px;
+    height: 360px;
+
+}
+
+.productInfo .precio{
+    font-size: 2em;
+    letter-spacing: -1px;
+    padding-bottom: 15px;
+    vertical-align: top;
+}
+
+.productInfo .precio sup{
+    font-size: .5em;
+    line-height: 1.5em;
+    vertical-align: text-top;
+}
+
+.productInfo form {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    float: none;
+    max-width: 480px;
+    min-width: 390px;
+}
+
+.productInfo form label.subtitle{
+    color: gray;
+}
+
+.ch-form-actions {
+    margin: 0px 0px 5px 0px !important;
+}
+
+.ch-form-row label {
+    width: 50px !important;
+}
+
+.ch-carousel {
+    overflow: hidden !important;
+    width: 400px;
+    margin-top: 20px;
+    height: 130px;
+}
+
+.ch-carousel .ch-carousel-item{
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+.ch-box-info p, .ch-box-ok p {
+  font-size: 13px;
+}
+
+.bg-great-info{
+	text-align: center;
+}
+
+.bg-great-info h1{
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.bg-product-content{
+	margin-top: 30px;
+}
+
+.separator{
+	margin-top: 10px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+
+.tabs input[type=radio] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.tabs {
+  float: none;
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: 30px auto;
+}
+.tabs li{
+  float: left;
+  border: 1px solid #EDEDED;
+  border-bottom: 0px;
+  padding: 3px 12px;
+  margin-right: 2px;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#EEE),color-stop(100%,#FFF));
+}
+.tabs label {
+
+    border-bottom: 1px solid #FFF;
+    cursor: default;
+    font-weight: 700;
+    text-shadow: 2px 0 2px rgba(255,255,255,.5);
+
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.tabs label:hover {
+  top: 0;
+}
+ 
+[id^=tab]:checked + label {
+  top: 0;
+  cursor: pointer;
+  margin-right: 0;
+}
+ 
+[id^=tab]:checked ~ [id^=tab-content] {
+    display: block;
+    border: 1px solid #ededed;
+    margin-top: -25px;
+}
+.tab-content{
+  z-index: 2;
+  display: none;
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+  line-height: 140%;
+  padding: 15px;
+  color: white;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  box-sizing: border-box;
+  -webkit-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+.ch-box-container{
+  color: black;
+}
+
+.ch-box-container p{
+  font-size: 14px;
+  margin-top: 0px;
+}
